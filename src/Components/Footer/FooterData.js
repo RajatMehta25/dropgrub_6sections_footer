@@ -1,0 +1,52 @@
+const footerData=[
+    {  
+        title:"COMPANY",
+        linktext1:"About",
+        link1:"/",
+        linktext2:"Blog",
+        link2:"/",
+        linktext3:"Careers",
+        link3:"/",
+      linktext4:"Contact",
+      link4:"/",
+    },
+    {
+        title:"FOR FOODIES",
+        linktext1:"Code of Conduct",
+        link1:"/",
+        linktext2:"Community",
+        link2:"/",
+        linktext3:"Blogger Help",
+        link3:"/",
+        linktext4:"Developers",
+        link4:"/",
+        linktext5:"Mobile Apps",
+        link5:"/",
+    },
+    {
+        title:"FOR RESTAURANT",
+        linktext1:"Add a Restaurant",
+        link1:"/",
+        linktext2:"Claim your Listing",
+        link2:"/",
+        linktext3:"Business App",
+        link3:"/",
+        linktext4:"Restaurant Widgets",
+        link4:"/",
+        linktext5:"Product for Business",
+        link5:"/",
+    },
+    {
+        title:"FOR YOU",   
+        linktext1:"Privacy",
+        link1:"/",
+        linktext2:"Terms",
+        link2:"/",
+        linktext3:"Security",
+        link3:"/",
+        linktext4:"Sitemap",
+        link4:"/",
+    }
+ 
+]
+export default footerData;

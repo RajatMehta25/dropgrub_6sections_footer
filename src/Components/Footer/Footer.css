@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F6;
+    padding: 50px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 55%;
+    padding: 30px 0 0 0;
+
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+border-bottom: 2px solid #E6E6E6;
+padding: 30px;
+
+}
+@media screen and (max-width: 865px) {
+    .row{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .row2{
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .footerData{
+padding: 20px;
+    }
+}
+    
+
+
+.footerData{
+    display: flex;
+    flex-direction: column;
+   
+}
+a {
+    
+    text-decoration: none !important;
+    color:#696969;
+    font: normal normal normal 14px/21px Poppins;
+}
+.goog-logo-link{
+display: none !important;
+}
+.goog-te-gadget{
+    color:transparent !important;
+}
+.sociallinks{
+    color: black;
+    font-size: 20px;
+}
+.row3{
+    text-align: center;
+    padding: 30px;
+    color:#696969;
+    font: normal normal normal 14px/21px Poppins;
+}
+.linksHeading{
+    color:#1C1C1C;
+    font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 1.28px;
+}
+.goog-te-gadget .goog-te-combo{
+    font-size: 16px;
+    padding: 9px;
+
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+font-weight: 600;
+    color: #1C1C1C;
+    letter-spacing: 1.28px;
+}
